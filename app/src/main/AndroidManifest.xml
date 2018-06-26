@@ -16,7 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Menu_Simkop"></activity>
+        <activity android:name=".Menu_Simkop" />
+        <activity android:name=".Jumlah_Koperasi" />
+        <activity android:name=".Jumlah_Anggota" />
+        <activity android:name=".Jumlah_Manager" />
+        <activity android:name=".Jumlah_Asset" />
+        <activity android:name=".Jumlah_Omset" />
+        <activity android:name=".Data_Koperasi"></activity>
     </application>
 
 </manifest>

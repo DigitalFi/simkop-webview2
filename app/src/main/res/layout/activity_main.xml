@@ -4,21 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1c5598"
+    android:background="#568bb7"
     tools:context="com.example.inge.simkopapps.MainActivity">
 
+
     <ImageView
+        android:id="@+id/satu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/splash"
         android:paddingBottom="50dp"
-        android:src="@drawable/ssss"
+        android:src="@drawable/logosplash"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
-
-
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
