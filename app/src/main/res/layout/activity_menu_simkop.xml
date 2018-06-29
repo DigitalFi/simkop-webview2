@@ -17,15 +17,28 @@
         android:scaleType="centerCrop"
         android:src="@drawable/koperasi" />
 
+    <LinearLayout
+        android:id="@+id/ticker_area"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="0dp"
+        android:background="#065e52"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+    </LinearLayout>
+
 
 
     <LinearLayout
-        android:paddingTop="30dp"
+        android:paddingTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:background="@drawable/bg_ss"
+        android:background="#FFFFFF"
         android:weightSum="3">
         <!--atas-->
         <LinearLayout
@@ -44,11 +57,9 @@
                     android:onClick="Jumlah_Koperasi"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginTop="10dp"
-                    app:cardCornerRadius="5dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginBottom="0dp"
                     tools:ignore="OnClick">
 
                     <LinearLayout
@@ -57,9 +68,9 @@
 
                         <ImageView
                             android:id="@+id/imageview"
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/jml_koperasi" />
+                            android:src="@drawable/jml_koperasi1" />
 
 
                     </LinearLayout>
@@ -75,11 +86,10 @@
                     android:onClick="Jumlah_Anggota"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginTop="10dp"
-                    app:cardCornerRadius="5dp">
+                    android:layout_marginRight="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginTop="0dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -111,11 +121,10 @@
                     android:onClick="Jumlah_Manager"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginTop="10dp"
-                    app:cardCornerRadius="5dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginTop="0dp"
                     tools:ignore="OnClick">
 
                     <LinearLayout
@@ -124,7 +133,7 @@
 
                         <ImageView
                             android:id="@+id/imageview2"
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:src="@drawable/jml_manager" />
 
@@ -142,11 +151,10 @@
                     android:onClick="Jumlah_Asset"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginTop="10dp"
-                    app:cardCornerRadius="5dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginTop="0dp"
                     tools:ignore="OnClick">
 
                     <LinearLayout
@@ -157,7 +165,7 @@
                             android:id="@+id/imageview3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/jml_aset" />
+                            android:src="@drawable/jml_asset" />
 
 
                     </LinearLayout>
@@ -179,11 +187,10 @@
                     android:onClick="Jumlah_Omset"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginTop="10dp"
-                    app:cardCornerRadius="5dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginTop="0dp"
                     tools:ignore="OnClick">
 
                     <LinearLayout
@@ -213,11 +220,10 @@
                     android:onClick="Data_Koperasi"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginTop="10dp"
-                    app:cardCornerRadius="5dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginTop="0dp"
                     tools:ignore="OnClick">
 
                     <LinearLayout
