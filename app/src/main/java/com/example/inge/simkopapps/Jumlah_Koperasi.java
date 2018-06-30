@@ -19,7 +19,7 @@ public class Jumlah_Koperasi extends AppCompatActivity {
         view.getSettings().setJavaScriptEnabled(true);
         view.setWebViewClient(new MyBrowser());
         //ini manggil url web dari webview-nya
-        view.loadUrl("https://simkop.digitalfatih.com/mdashboard/chart_jumlah_koperasi");
+        view.loadUrl("https://simpokdev.gobisnis.online/mdashboard/chart_jumlah_koperasi");
     }
 
     //ini supaya gak nge-redirect ke browser

@@ -21,7 +21,7 @@ public class Jumlah_Asset extends AppCompatActivity {
         view.getSettings().setJavaScriptEnabled(true);
         view.setWebViewClient(new MyBrowser());
         //ini manggil url web dari webview-nya
-        view.loadUrl("https://simkop.digitalfatih.com/mdashboard/chart_asset");
+        view.loadUrl("https://simpokdev.gobisnis.online/mdashboard/chart_asset");
     }
 
     //ini supaya gak nge-redirect ke browser
