@@ -70,7 +70,7 @@
                             android:id="@+id/imageview"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/jml_koperasi1" />
+                            android:src="@drawable/jenis_koperasi" />
 
 
                     </LinearLayout>
@@ -99,7 +99,7 @@
                             android:id="@+id/imageview1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/jml_anggota" />
+                            android:src="@drawable/jml_anggotabaru" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -135,7 +135,7 @@
                             android:id="@+id/imageview2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/jml_manager" />
+                            android:src="@drawable/jmlmanagerbaru" />
 
 
                     </LinearLayout>
@@ -165,7 +165,7 @@
                             android:id="@+id/imageview3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/jml_asset" />
+                            android:src="@drawable/status_kantor" />
 
 
                     </LinearLayout>
@@ -201,7 +201,7 @@
                             android:id="@+id/imageview4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/jml_omset" />
+                            android:src="@drawable/shu" />
 
 
                     </LinearLayout>
@@ -234,7 +234,7 @@
                             android:id="@+id/imageview5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/data_koperasi" />
+                            android:src="@drawable/dtkoperasibaru" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>

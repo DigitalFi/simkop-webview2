@@ -21,7 +21,7 @@ public class Data_Koperasi extends AppCompatActivity {
         view.getSettings().setJavaScriptEnabled(true);
         view.setWebViewClient(new MyBrowser());
         //ini manggil url web dari webview-nya
-        view.loadUrl("https://simpokdev.gobisnis.online/mdashboard/koperasi");
+        view.loadUrl("http://simpokdev.gobisnis.online/mdashboard/koperasi");
     }
 
     //ini supaya gak nge-redirect ke browser
